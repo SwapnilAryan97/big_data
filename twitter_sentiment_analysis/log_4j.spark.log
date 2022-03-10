@@ -1,0 +1,38 @@
+21/12/12 20:17:32 WARN Utils: Your hostname, swapnilsinhas-MacBook-Pro.local resolves to a loopback address: 127.0.0.1; using 10.0.0.133 instead (on interface en0)
+21/12/12 20:17:32 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+21/12/12 20:17:32 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/12/12 20:17:32 INFO SecurityManager: Changing view acls to: swapnilsinha
+21/12/12 20:17:32 INFO SecurityManager: Changing modify acls to: swapnilsinha
+21/12/12 20:17:32 INFO SecurityManager: Changing view acls groups to: 
+21/12/12 20:17:32 INFO SecurityManager: Changing modify acls groups to: 
+21/12/12 20:17:32 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(swapnilsinha); groups with view permissions: Set(); users  with modify permissions: Set(swapnilsinha); groups with modify permissions: Set()
+21/12/12 20:17:33 INFO SparkContext: Running Spark version 3.0.1
+21/12/12 20:17:33 INFO ResourceUtils: ==============================================================
+21/12/12 20:17:33 INFO ResourceUtils: Resources for spark.driver:
+
+21/12/12 20:17:33 INFO ResourceUtils: ==============================================================
+21/12/12 20:17:33 INFO SparkContext: Submitted application: project2
+21/12/12 20:17:33 INFO SecurityManager: Changing view acls to: swapnilsinha
+21/12/12 20:17:33 INFO SecurityManager: Changing modify acls to: swapnilsinha
+21/12/12 20:17:33 INFO SecurityManager: Changing view acls groups to: 
+21/12/12 20:17:33 INFO SecurityManager: Changing modify acls groups to: 
+21/12/12 20:17:33 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(swapnilsinha); groups with view permissions: Set(); users  with modify permissions: Set(swapnilsinha); groups with modify permissions: Set()
+21/12/12 20:17:33 INFO Utils: Successfully started service 'sparkDriver' on port 51535.
+21/12/12 20:17:33 INFO SparkEnv: Registering MapOutputTracker
+21/12/12 20:17:33 INFO SparkEnv: Registering BlockManagerMaster
+21/12/12 20:17:33 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/12/12 20:17:33 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/12/12 20:17:33 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/12/12 20:17:33 INFO DiskBlockManager: Created local directory at /private/var/folders/24/9hmltcts22s8tvf17n0zxgbr0000gn/T/blockmgr-57797034-e709-4f05-aedf-8971705b6bfc
+21/12/12 20:17:33 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+21/12/12 20:17:33 INFO SparkEnv: Registering OutputCommitCoordinator
+21/12/12 20:17:34 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/12/12 20:17:34 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://10.0.0.133:4040
+21/12/12 20:17:34 INFO Executor: Starting executor ID driver on host 10.0.0.133
+21/12/12 20:17:34 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 51536.
+21/12/12 20:17:34 INFO NettyBlockTransferService: Server created on 10.0.0.133:51536
+21/12/12 20:17:34 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/12/12 20:17:34 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.0.133, 51536, None)
+21/12/12 20:17:34 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.0.133:51536 with 366.3 MiB RAM, BlockManagerId(driver, 10.0.0.133, 51536, None)
+21/12/12 20:17:34 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.0.133, 51536, None)
+21/12/12 20:17:34 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.0.133, 51536, None)
